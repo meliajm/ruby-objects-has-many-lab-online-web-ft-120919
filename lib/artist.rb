@@ -1,5 +1,3 @@
-require 'pry'
-
 class Artist 
   
   attr_accessor :name
@@ -25,7 +23,5 @@ class Artist
     # binding.pry
     Song.all.length
   end 
-  
-    
   
 end 
